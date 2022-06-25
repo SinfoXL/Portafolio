@@ -1,0 +1,33 @@
+
+
+.footer-container{
+    background: #000000;
+}
+
+.footer-container ul{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.footer-container a{
+    margin: 0 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-container img{
+    width: 20px;
+}
+
+#cv{
+    background: yellow;
+    color: #171717;
+    padding: 3px 7px;
+    border-radius: 7px;
+    font-family: monospace;
+}

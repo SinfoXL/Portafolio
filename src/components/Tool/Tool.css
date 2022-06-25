@@ -1,0 +1,24 @@
+
+.container-tool{
+    background: #171717;
+    padding:  10px 40px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: -2px -2px 4px #101010, 4px 4px 8px #101010;
+}
+
+.container-tool img{
+    width: 100px;
+    padding: 20px;
+}
+
+.container-tool h4{
+    text-align: center;
+    color: #f2f5f6;
+    width: 100px;
+    padding: 20px;
+}
+

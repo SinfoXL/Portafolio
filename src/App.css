@@ -1,0 +1,185 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  color: #171717;
+  text-align: center;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  
+}
+
+/*header*/
+header{
+  width: 100%;
+}
+.container-header{
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-header-contacto ul{
+  display: flex;
+}
+
+.container-header-contacto ul li{
+  list-style: none;
+  padding: 10px;
+}
+
+.container-header-contacto ul li a{
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.container-header-logo{
+  display: flex;
+  align-items: center;
+}
+
+.container-header-logo-open{
+  width: 9px;
+  margin-top: 2px;
+  margin-right: 5px;
+}
+
+.container-header-logo-title{
+  display: block;
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  animation: typing 1s steps(14), deleting 1s steps(16) infinite alternate ;
+  animation-iteration-count: 3;
+  overflow: hidden;
+}
+
+@keyframes typing {
+to {width: 100%}
+}
+
+@keyframes deleting {
+  from { width: 0 }
+}
+
+
+.container-header-logo-close{
+  width: 15px;
+  margin-top: 2px;
+  margin-left: 5px;
+  
+}
+
+
+.container-main-about{
+  background: #171717;
+  padding: 70px;
+  /* background: rgb(13, 56, 80);  */
+
+}
+
+.container-main-navbar{
+  position: sticky;
+  top: 0;
+}
+
+.container-main-skill{
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main-tool{
+  margin-top: 50px;
+  background: #171717;  
+  padding-top: 20px;
+  padding-bottom: 65px;
+
+}
+
+.container-main-tool h3{
+  margin-top: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.834);
+  margin: 10px;
+}
+
+.container-tool-group{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main-tool p{
+  color: rgba(255, 255, 255, 0.644);
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.pruebadiseno{
+  width: 70%;
+  margin: auto;
+  padding: 50px;
+}
+
+
+
+.container-main-knowledge{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.container-knowinprocess{
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+.container-knowinprocess h4{
+  text-align: center;
+  color: #171717;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+} 
+
+.container-knowinprocess img{
+  width: 80px;
+  margin: 10px;
+} 
+
+.container-knowinprocess p{
+  text-align: center;
+}
