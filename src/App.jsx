@@ -13,11 +13,14 @@ import jsLogo from "./assets/LogosSkills/javascript.png"
 import htmlLogo from "./assets/LogosSkills/html-5.png"
 import cssLogo from "./assets/LogosSkills/css-3.png"
 import sqlLogo from "./assets/LogosSkills/sql.png"
+import python from "./assets/LogosSkills/python.png"
 
 import laravelLogo from './assets/LogosTools/laravel.png'
 import reactLogo from './assets/LogosTools/reactjs.png'
 import vsCodeLogo from './assets/LogosTools/vscode.png'
 import wordpressLogo from './assets/LogosTools/wordpress.png'
+
+import poliLogo from './assets/Fotos/polilogo.png'
 
 import usaLogo from './assets/LogosKnowledge/usa.png'
 import scrumLogo from './assets/LogosKnowledge/scrum.png'
@@ -60,18 +63,20 @@ function App() {
         <h2>Habilidad en lenguajes de programación</h2>
 
       <div id='skills'  className="container-main-skill"> {/* Secicon de habilidades */}
-        <Skill logo = {phpLogo} levelBarColor = "#787CB5" barWidth = {30} name = 'php' titleDescription = 'Web' 
+        <Skill logo = {phpLogo} levelBarColor = "#787CB5" barWidth = {20} name = 'php' titleDescription = 'Web' 
         description = 'Conocimiento del lenguaje a través del uso del framework Laravel 8 en proyectos de empresa'/>
-        <Skill logo = {javaLogo} levelBarColor= "#d4360e" barWidth = {60}  name = 'java' titleDescription = 'Desktop'
+        <Skill logo = {javaLogo} levelBarColor= "#d4360e" barWidth = {35}  name = 'java' titleDescription = 'Desktop'
         description = 'Conocimiento del lenguaje en entorno educativo para proyectos academicos universitarios.'/>
-        <Skill logo = {jsLogo} levelBarColor = "#F0DB4F" barWidth = {40} name = 'js' titleDescription = 'Web front'
+        <Skill logo = {jsLogo} levelBarColor = "#F0DB4F" barWidth = {30} name = 'js' titleDescription = 'Web front'
         description = 'Conocimiento del lenguaje aplicandolo a la libreria Reactjs en proyectos propios para aprendizaje'/>
-        <Skill logo = {htmlLogo} levelBarColor = "#FF5733" barWidth = {70} name = 'html' titleDescription = 'Web'
+        <Skill logo = {htmlLogo} levelBarColor = "#FF5733" barWidth = {60} name = 'html' titleDescription = 'Web'
         description = 'De manera autodidacta he aprendido el lenguaje de etiquetas para uso empresarial y personal'/>
-        <Skill logo = {cssLogo} levelBarColor = "#2965f1" barWidth = {50} name = 'css' titleDescription = 'Web'
+        <Skill logo = {cssLogo} levelBarColor = "#2965f1" barWidth = {30} name = 'css' titleDescription = 'Web'
         description = 'De manera autodidacta he aprendido CSS para uso tanto de aprendizaje y practica como empresarial'/>
-        <Skill logo = {sqlLogo} levelBarColor = "#00758F" barWidth = {50} name = 'sql' titleDescription = 'Database'
+        <Skill logo = {sqlLogo} levelBarColor = "#00758F" barWidth = {30} name = 'sql' titleDescription = 'Database'
         description = 'Conocimiento del lenguaje de consultas a nivel educativo para proyectos academicos universitarios'/>
+        <Skill logo = {python} levelBarColor = "#347474" barWidth = {20} name = 'python' titleDescription = 'web/desktop'
+        description = 'Ha sido mi actual enfoque el aprendizaje en el lenguaje python para el desarrollo de proyectos empresariales.'/>
       </div>
 
       <div id='tools' className="container-main-tool">    
@@ -103,6 +108,14 @@ function App() {
                   Scrum, mi objetivo es dar un aporte positivo al equipo de trabajo para ser exitosos.
                 </p>
             </div>
+        </div>
+
+        <div className="container-academic">
+            <div className="academic-info">
+              <h2>Estudios universitarios</h2>
+              <p>Actualmente me encuentro cursando el octavo semestre de la carrera de ingenieria informatica en la ciudad de Medellin, en el <span> Politecnico Colombiano Jaime Isaza Cadavid </span></p>
+            </div>
+            <img src={poliLogo} alt="Logo del poli" />
         </div>
 
       <Footer />

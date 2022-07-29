@@ -183,6 +183,42 @@ to {width: 100%}
   text-align: center;
 }
 
+.container-academic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 100px auto 30px auto;
+  padding: 20px;
+  border-radius: 31px;
+  background: #ffffff;
+  box-shadow:  7px 7px 14px #cfcfcf,
+               -7px -7px 14px #ffffff;
+}
+
+.academic-info h2{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.academic-info p{
+  text-align: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+
+.academic-info p span{
+  font-weight: 600;
+}
+
+.container-academic img{
+  width: 300px;
+  margin: 15px 0;
+}
+
 @media (max-width : 641px) {
   .container-header-logo{
     display: none;
