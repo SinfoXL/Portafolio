@@ -46,7 +46,7 @@ function App() {
               <li><a href="https://api.whatsapp.com/send?phone=3016554575" target='_blank'>Whatsapp</a></li>
               <li><a href="mailto:sebas.asd@hotmail.com">eMail</a></li>
               <li><a href="https://www.linkedin.com/in/sebastian-r%C3%ADos-garc%C3%ADa-92011a228/" target='_blank'>Linkedin</a></li>
-              <li><a href="https://twitter.com/sebasrios0109" target='_blank'>Twitter</a></li>
+              <li><a href="https://twitter.com/tiandevnine" target='_blank'>Twitter</a></li>
             </ul>
           </div>
         </div>
