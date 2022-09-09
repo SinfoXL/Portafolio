@@ -1,4 +1,4 @@
-//import Foto from '../../assets/Fotos/fotoSebas.png'
+import Foto from '../../assets/Fotos/sebas.png'
 import "./About.css";
 
 export default function About() {
@@ -6,7 +6,7 @@ export default function About() {
     <div className="container-about">
 
       <div className="container-about-image">
-        {/* <img src={Foto} alt="Foto" /> */}
+        <img src={Foto} alt="Foto" />
       </div>
 
       <div className="container-about-right">

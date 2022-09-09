@@ -151,6 +151,7 @@ to {width: 100%}
 
 .container-main-knowledge{
   display: flex;
+  flex-wrap: wrap;
   width: 80%;
   margin: auto;
   margin-top: 40px;
@@ -188,13 +189,9 @@ to {width: 100%}
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  margin: 100px auto 30px auto;
-  padding: 20px;
-  border-radius: 31px;
-  background: #ffffff;
-  box-shadow:  7px 7px 14px #cfcfcf,
-               -7px -7px 14px #ffffff;
+  padding: 30px;
+  background-color: #f8f8f8;
+
 }
 
 .academic-info h2{
